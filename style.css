@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #222121;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: #ffff;                                      
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: black;
+}
+.head h1 {
+    margin-left: 40px;
+    font-size: 35px;
+}
+.button-head button {
+    margin-right: 40px;
+    margin-top: 32px;
+    width: 80px;
+    height: 32px;
+    color: #ffff;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 140);
+    cursor: pointer;
+}
+.button-head button:hover {
+    background-color: rgb(50, 50, 173);
+    color: #ffff;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-book {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 320px;
+    background-color: #222121; 
+    height: 659px;
+    position: fixed;
+
+}
+footer {
+    text-align: center;
+    font-size: 11px;
+    color:black;
+}
+
+.head-form h2 {
+    text-align: center;
+}
+.form-detail div {
+    text-align: center;
+    margin-bottom: 30px;
+}
+input {
+    width: 280px;
+    height: 23px;
+    background-color: #999696;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.submit-button button {
+    width: 175px;
+    height: 32px;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(34, 34, 140);
+    color: #ffff;
+}
+.submit-button button:hover {
+    background-color: rgb(50, 50, 173);
+    color: #ffff;
+}
+
+.card-books {
+    background-color: #1c0428;
+    width: 1200px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+    height: 659px;
+}
+.book {
+    background-color: #10103c;
+    text-align: center;
+    width: 320px;
+    height: 300px;
+    margin: 20px 20px;
+    margin-left: 24px;
+    border-radius: 12px;
+    border: 8px #170421 solid;
+    /* 222121 */
+}
+
+.book div {
+    margin-bottom: 30px;
+}
+.book button {
+    width: 250px;
+    height: 32px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffff;
+
+}
+
+.readed-button {
+    background-color: #188f18;
+}
+
+.remove-button {
+    background-color: rgb(120, 26, 66);
+}
+.remove-button:hover {
+    background-color: rgb(145, 43, 87);
+}
+
+#count-div {
+    color: rgb(80, 204, 80);
+    text-align: center;
+    font-size: 70px;
+}
+#count-head {
+    margin-top: 50px;
+    color: #ffff;
+}
+
+
+#remove-button-id {
+    margin-left: 72px;
+    width: 175px;
+    background-color: rgb(179, 18, 18);
+}
+#remove-button-id:hover{
+    background-color: rgb(216, 24, 24);
+}
+#submit-ids {
+    margin-left: 72px;
+    width: 175px;
+}
+
+.books-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+    
+}
+.completed-books-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+    
+}
+.total-pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+    
+}
+.completed-pages-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+    
+}
+
+.head-hr{
+    width: 280px;
+    border: 1px black solid;
+
+}
+
+
